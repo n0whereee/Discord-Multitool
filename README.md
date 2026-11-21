@@ -74,9 +74,9 @@ python main.py
 
 - requests
 - httpx
-- discord.py
 - pycryptodome
 - pywin32
+- discord.py
 
 ---
 
