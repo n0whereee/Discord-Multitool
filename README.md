@@ -1,57 +1,76 @@
 # Discord Multi Tool
 
-A powerful Discord multi-tool with multiple utilities for webhooks, user tokens, and server tools.
+A multi-tool for Discord webhook management, user token utilities, group chats, and server information.
 
 ---
 
-## ⚡ Features
+## Features
 
-### 🔗 Webhook Tools
-- 01 Webhook deleter
-- 02 Webhook spammer
-- 03 Webhook editor
-- 04 Webhook info
+### Webhook Tools
+- Webhook Deleter
+- Webhook Spammer
+- Webhook Editor
+- Webhook Info
 
-### 👤 User Tools
-- 05 User token checker
-- 06 User token nuker
-- 07 Groupchat spammer
+### User Tools
+- User Token Checker
+- User Token Nuker
+- Group Chat Spammer
 
-### 🖥️ Server Tools
-- 08 Bot invite generator
-- 09 Server info
+### Server Tools
+- Bot Invite Generator
+- Server Info
 
 ---
 
-## 🧠 Requirements
+## Requirements
 
-Before using the tool, you MUST install Python.
+Python must be installed before using this tool.
 
-### 📌 Install Python:
+**Download Python:**
+
 https://www.python.org/downloads/
 
-⚠️ IMPORTANT:
-During installation enable:
+During installation, make sure to enable:
+
 - Add Python to PATH
 
 ---
 
-## 📦 Installation
+## Installation
 
-1. Download the project
-2. Extract the folder
+### Option 1: Automatic Installation
+
+1. Download the project.
+2. Extract the archive.
 3. Run:
-```bash
+
+```bat
 setup.bat
 ```
-This will:
-- check Python installation
-- install all dependencies
-- start the tool automatically
+
+The setup script will:
+- Check your Python installation.
+- Install the required dependencies.
+- Launch the tool automatically.
+
+### Option 2: Manual Installation
+
+Install the required dependencies:
+
+```bash
+pip install requests httpx discord.py pycryptodome pywin32
+```
+
+Start the application:
+
+```bash
+python main.py
+```
 
 ---
 
-## 📥 Dependencies
+## Dependencies
 
 - requests
 - httpx
@@ -61,23 +80,22 @@ This will:
 
 ---
 
-## ▶️ Usage
+## Usage
 
-After setup the tool starts automatically.
-
-Or run manually:
+After completing the installation, launch the tool using `setup.bat` or run it manually:
 
 ```bash
 python main.py
 ```
----
-
-## ⚠️ Disclaimer
-
-This tool is for educational purposes only.
 
 ---
 
-## 👤 Author
+## Disclaimer
 
-0xN0WHERE
+This project is intended for educational purposes only. The author is not responsible for any misuse of the provided tools.
+
+---
+
+## Author
+
+**0xN0WHERE**
