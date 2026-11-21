@@ -59,7 +59,7 @@ The setup script will:
 Install the required dependencies:
 
 ```bash
-pip install requests httpx discord.py pycryptodome pywin32
+pip install -r requirements.txt
 ```
 
 Start the application:
