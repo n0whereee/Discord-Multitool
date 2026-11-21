@@ -1,6 +1,6 @@
 # Discord Multitool
 
-A multi-tool for Discord webhook management, user token utilities, group chats, and server information.
+A simple multitool for Discord webhook management, user token utilities, group chats, and server information.
 
 ---
 
